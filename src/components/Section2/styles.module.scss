@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+
+    div {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      h1 {
+        font-size: 6rem;
+        color: var(--third-color);
+        padding: 2rem 0rem;
+      }
+      p {
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 2rem 0rem;
+      }
+      button {
+        font-size: 2rem;
+        padding: 2rem 4rem;
+        background: var(--third-color);
+        border-radius: 1rem;
+        color: var(--light);
+        transition: ease 0.5s;
+        &:hover {
+          background: var(--primary-color);
+        }
+      }
+    }
+    img {
+      position: absolute;
+      padding: 10px;
+    }
+  }
+}

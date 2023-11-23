@@ -14,6 +14,7 @@
   --selected-button: #00000025;
   --unselected-button: #f1f1f025;
   --primary-color: #d15dbb;
+  --background-mask: rgba(255, 0, 208, 0.175);
   --secondary-color: #ffaca8;
   --third-color: #ac4497;
 }
@@ -22,6 +23,7 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
+  background: var(--light);
 }
 
 body,
