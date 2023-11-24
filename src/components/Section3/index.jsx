@@ -28,7 +28,7 @@ export function Section3() {
 
         <div>
           <div>
-            <h2>App </h2>
+            <h2>App</h2>
             <p>
               O aplicativo proporciona acesso fácil a insights em tempo real
               sobre emoções e sono, facilitando uma gestão proativa da saúde
@@ -53,6 +53,7 @@ export function Section3() {
             </p>
           </div>
         </div>
+
         <div>
           <div>
             <h2>Conexão</h2>

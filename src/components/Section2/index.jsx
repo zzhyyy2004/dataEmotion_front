@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import relatedimg from "../../assets/img_related.svg";
 import bgImg from "../../assets/logo_semnome.svg";
 
 export function Section2() {

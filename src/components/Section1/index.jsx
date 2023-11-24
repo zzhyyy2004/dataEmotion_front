@@ -16,7 +16,9 @@ export function Section1() {
       <section>
         <h1>O que é?</h1>
         <div>
-          <img src={relatedimg} alt="imagem relacionada" />
+          <div>
+            <img src={relatedimg} alt="imagem relacionada" />
+          </div>
           <p>{texts[selectedText]}</p>
         </div>
         <nav>
