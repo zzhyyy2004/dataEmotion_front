@@ -3,7 +3,6 @@ import styles from "./styles.module.scss";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IoKeyOutline } from "react-icons/io5";
 import { Header } from "../../components/Header";
-import Logo from "../../assets/dataemotion logo (7).svg";
 
 export default function Login() {
   return (

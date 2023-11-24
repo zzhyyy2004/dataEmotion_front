@@ -58,7 +58,7 @@
           border-radius: 1rem;
           cursor: pointer;
           background-color: var(--unselected-button);
-          transition: ease 0.5s;
+          transition: ease-in 0.5s;
 
           &.selected {
             background-color: var(--selected-button);

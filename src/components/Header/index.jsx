@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.scss";
-import Logo from "../../assets/dataemotion logo (7).svg";
+import Logo from "../../assets/Logo.svg";
 
 export function Header() {
   return (

@@ -5,7 +5,7 @@ import bgImg from "../../assets/logo_semnome.svg";
 import clock from "../../assets/clock2.svg";
 import celular from "../../assets/phone.png";
 import face from "../../assets/recognisition.png";
-
+import pacMed from "../../assets/pacxmed.svg";
 export function Section3() {
   return (
     <div className={styles.container}>
@@ -17,22 +17,22 @@ export function Section3() {
             className="photo"
           />
           <div>
-            <h2>Lorem Ipsum</h2>
+            <h2>Pulseira Sensorial</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              soluta facilis aperiam at facere. Debitis fugiat iure molestias
-              voluptatum praesentium.
+              A pulseira monitora padrões de sono, movimentos e frequência
+              cardíaca de forma discreta e confortável, permitindo avaliações
+              detalhadas para cuidados personalizados.
             </p>
           </div>
         </div>
 
         <div>
           <div>
-            <h2>Lorem Ipsum</h2>
+            <h2>App </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              soluta facilis aperiam at facere. Debitis fugiat iure molestias
-              voluptatum praesentium.
+              O aplicativo proporciona acesso fácil a insights em tempo real
+              sobre emoções e sono, facilitando uma gestão proativa da saúde
+              mental.
             </p>
           </div>
           <img
@@ -45,13 +45,24 @@ export function Section3() {
         <div>
           <img src={face} alt="reconhecimento facial" className="photo" />
           <div>
-            <h2>Lorem Ipsum</h2>
+            <h2>Análise</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              soluta facilis aperiam at facere. Debitis fugiat iure molestias
-              voluptatum praesentium.
+              O reconhecimento facial oferece uma abordagem inovadora para
+              compreender emoções em tempo real, possibilitando análises
+              precisas para intervenções oportunas no bem-estar emocional.
             </p>
           </div>
+        </div>
+        <div>
+          <div>
+            <h2>Conexão</h2>
+            <p>
+              A conexão eficiente entre pacientes e profissionais de saúde
+              simplifica ajustes precisos nos tratamentos, promovendo uma
+              interação remota prática para o cuidado à distância.
+            </p>
+          </div>
+          <img src={pacMed} alt="imagem ilustrativa do app" className="photo" />
         </div>
       </section>
     </div>

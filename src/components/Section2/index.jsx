@@ -11,14 +11,14 @@ export function Section2() {
         <div>
           <h1>DataEmotion</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            et nemo doloremque dolorem repudiandae, voluptatem deserunt
-            perferendis vitae, illo quam natus adipisci alias. Ullam velit,
-            laboriosam similique reiciendis dolorem quos. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Quae sunt delectus, voluptatibus
-            culpa maxime facere rerum porro quis accusantium vitae recusandae,
-            beatae quasi repudiandae ipsam deleniti perspiciatis unde ducimus
-            cumque!
+            Descubra o DataEmotion: inovação que monitora saúde emocional
+            remotamente para transformar o bem-estar saúdavel de modo que irá
+            ajudar a analisar a saúde mental de seu paciente.
+            <p>
+              Este avançado sistema ajuda em intervenções precisas,
+              identificando distúrbios emocionais precocemente, elevando a
+              qualidade de vida.
+            </p>
           </p>
           <button>mais informarções</button>
         </div>
