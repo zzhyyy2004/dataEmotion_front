@@ -2,12 +2,14 @@ import React from "react";
 import styles from "./styles.module.scss";
 import relatedimg from "../../assets/img_related.svg";
 import bgImg from "../../assets/logo_semnome.svg";
+
 export function Section2() {
   return (
     <div className={styles.container}>
+      <div className={styles.overlay}></div>
       <section>
         <div>
-          <h1>O que é?</h1>
+          <h1>DataEmotion</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             et nemo doloremque dolorem repudiandae, voluptatem deserunt
@@ -19,8 +21,8 @@ export function Section2() {
             cumque!
           </p>
           <button>mais informarções</button>
-          <img src={bgImg} alt="" />
         </div>
+        <img src={bgImg} alt="Logo da empresa" />
       </section>
     </div>
   );
