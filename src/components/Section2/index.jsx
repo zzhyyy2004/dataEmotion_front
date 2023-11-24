@@ -21,7 +21,6 @@ export function Section2() {
           </p>
           <button>mais informarções</button>
         </div>
-        <img src={bgImg} alt="Logo da empresa" />
       </section>
     </div>
   );
