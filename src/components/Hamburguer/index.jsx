@@ -3,9 +3,11 @@ import styles from "./styles.module.scss";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { GoPerson } from "react-icons/go";
 import { AiOutlineLogout } from "react-icons/ai";
+import { useAuth } from "../../Hooks/verify";
 
 export function Hamburguer() {
   const [open, setOpen] = useState(false);
+  const { user, singOut } = useAuth();
 
   useEffect(() => {
     const handleScroll = (e) => {
@@ -44,24 +46,39 @@ export function Hamburguer() {
             }`}
           >
             <ul>
-              <li>
-                <i>
-                  <IoMailOpenOutline />
-                </i>
-                <p>gusflopes@hotmail.com</p>
-              </li>
-              <li>
-                <i>
-                  <GoPerson />
-                </i>
-                <p>gustavo Lopes</p>
-              </li>
-              <li>
-                <i>
-                  <AiOutlineLogout />
-                </i>
-                <a href="/">sair</a>
-              </li>
+              {user?.email ? (
+                <li>
+                  <i>
+                    <IoMailOpenOutline />
+                  </i>
+
+                  <p>{user.email}</p>
+                </li>
+              ) : (
+                "Logue e venha falar com a gente!"
+              )}
+
+              {user?.name ? (
+                <li>
+                  <i>
+                    <GoPerson />
+                  </i>
+                  <p>{user.name}</p>
+                </li>
+              ) : (
+                "O Melhor header que voce ja viu"
+              )}
+
+              {user?.id ? (
+                <li>
+                  <i>
+                    <AiOutlineLogout />
+                  </i>
+                  <buttton onClick={singOut}>sair</buttton>
+                </li>
+              ) : (
+                "Isso aqui vale um 10!"
+              )}
             </ul>
           </nav>
         )}

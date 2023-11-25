@@ -63,6 +63,9 @@
       justify-content: space-around;
       align-items: flex-end;
       padding: 2rem 0rem;
+      li:nth-child(3) {
+        cursor: pointer;
+      }
       li {
         display: flex;
         font-size: 2rem;
