@@ -45,7 +45,7 @@ export default function Login() {
               <IoKeyOutline />
             </i>
             <input
-              type="text"
+              type="password"
               placeholder="senha:"
               onChange={(e) => {
                 setPassword(e.target.value);
