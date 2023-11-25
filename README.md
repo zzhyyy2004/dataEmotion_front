@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<h1>FrontEnd</h1>
+<h2>Global solution 2023 – Engenharia de Software</h2>
+<ul>
+  <li>Alunos:</li>
+  <li>Gustavo Ferreira Lopes – RM 98887</li>
+  <li>Lucas Fernandes Joaquim – RM 551313</li>
+</ul>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Logins cadastrados
 
-## Available Scripts
+<ul>
+  <li>Login 1</li>
+  <li>email: rm98887@fiap.com.br</li>
+  <li>senha: Fiap123</li>
+</ul>
+<ul>
+  <li>Login 2</li>
+  <li>email: rm551313@fiap.com.br</li>
+  <li>senha: Fiap123</li>
+</ul>
 
-In the project directory, you can run:
+## Use no Terminal
+
+### `npm install`
+
+Para instalar todas as dependências
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Abra em http://localhost:3000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `json-server --watch db.json --port 3001`
 
-### `npm test`
+Use para conseguir acessar ao nosso web
+Use na porta 3001
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Caso queira saber sobre o que é o projeto:
 
-### `npm run build`
+**O que é?**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O Projeto DataEmotion é uma iniciativa inovadora desenvolvida pela Hapvida em parceria com a DataEmotion, que combina tecnologias avançadas, como reconhecimento facial e sensores Arduino em uma pulseira, para oferecer um acompanhamento remoto e detalhado da saúde mental, com foco especial nos padrões de sono e expressões faciais dos usuários.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Como Vai Funcionar?**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O funcionamento do projeto envolve a utilização de uma pulseira equipada com sensores Arduino para monitorar o sono, detectando movimentos e frequência cardíaca (BPM). Simultaneamente, um aplicativo de reconhecimento facial, desenvolvido em Python, captura e interpreta as expressões faciais dos usuários em tempo real. Os dados coletados são centralizados em uma plataforma que realiza uma análise integrada, proporcionando uma visão abrangente do estado emocional do paciente.
 
-### `npm run eject`
+**Objetivo**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O objetivo principal do projeto é facilitar o acompanhamento remoto de psiquiatras e psicólogos, fornecendo dados objetivos e detalhados sobre o sono e as emoções dos usuários. Isso busca melhorar a precisão das análises do estado emocional, possibilitando intervenções mais eficazes e personalizadas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Funções do Sistema**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As principais funções do sistema incluem a coleta contínua de dados sobre padrões de sono, análise em tempo real das expressões faciais, integração de informações e disponibilização de dados centralizados para profissionais de saúde mental.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Qual Problema Está Resolvendo?**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O projeto aborda desafios relacionados ao acompanhamento remoto na área de saúde mental. Ele visa resolver problemas de acessibilidade, oferecendo uma solução inovadora que permite a detecção precoce de distúrbios emocionais e a personalização dos tratamentos.

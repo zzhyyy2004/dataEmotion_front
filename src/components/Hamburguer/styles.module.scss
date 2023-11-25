@@ -2,11 +2,9 @@
   div {
     width: 50px;
     label {
-      // position: fixed;
       cursor: pointer;
       input {
         display: none;
-        // z-index: 999;
       }
       svg {
         /* The size of the SVG defines the overall size */
@@ -37,9 +35,6 @@
           stroke-dashoffset: -32.42;
         }
       }
-    }
-    .hamburguer.selected {
-      position: fixed;
     }
   }
 

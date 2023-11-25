@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import relatedimg from "../../assets/img_related.svg";
-import bgImg from "../../assets/logo_semnome.svg";
 import clock from "../../assets/clock2.svg";
-import celular from "../../assets/phone.png";
-import face from "../../assets/recognisition.png";
+import phone from "../../assets/app.svg";
+import facial from "../../assets/facial.svg";
 import pacMed from "../../assets/pacxmed.svg";
+
 export function Section3() {
   return (
     <div className={styles.container}>
@@ -35,15 +34,12 @@ export function Section3() {
               mental.
             </p>
           </div>
-          <img
-            src={celular}
-            alt="imagem ilustrativa do app"
-            className="photo"
-          />
+          <img src={phone} alt="imagem ilustrativa do app" className="photo" />
         </div>
 
         <div>
-          <img src={face} alt="reconhecimento facial" className="photo" />
+          <img src={facial} alt="reconhecimento facial" className="photo" />
+
           <div>
             <h2>Análise</h2>
             <p>

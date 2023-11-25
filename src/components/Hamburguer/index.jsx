@@ -66,7 +66,7 @@ export function Hamburguer() {
                   <p>{user.name}</p>
                 </li>
               ) : (
-                "O Melhor header que voce ja viu"
+                " O Melhor header que voce ja viu"
               )}
 
               {user?.id ? (
@@ -77,7 +77,7 @@ export function Hamburguer() {
                   <buttton onClick={singOut}>sair</buttton>
                 </li>
               ) : (
-                "Isso aqui vale um 10!"
+                " Isso aqui vale um 10!"
               )}
             </ul>
           </nav>
